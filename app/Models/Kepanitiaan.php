@@ -13,6 +13,6 @@ class Kepanitiaan extends Model
     public $timestamps = true;
     public function details()
     {
-        return $this->hasMany(Anggota::class, 'id_anggota');
+        return $this->hasMany(Anggota::class, 'id_anggota', 'id');
     }
 }
