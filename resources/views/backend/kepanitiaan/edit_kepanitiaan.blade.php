@@ -12,21 +12,21 @@
     <br>
     <div class="card shadow mb-4">
         <div class="card-body">
-            <form method="POST" action="{{ route('kepanitiaan.update', $editKepenitiaan->id) }}" enctype="multipart/form-data">
+            <form method="POST" action="{{ route('kepanitiaan.edit', $edit->id) }}" enctype="multipart/form-data">
                 @csrf
                 <div class="mb-3">
                     <div class="row">
                         <div class="col">
                             <label for="kategori" class="form-label">Kategori Tugas</label>
-                            <select type="select" class="form-control" name="kategori" value="{{$editKepanitiaan->kategori}}">
-                                <option selected>Pilih</option>
+                            <select type="select" class="form-control" name="kategori">
+                                <option selected value="{{$edit->kategori}}">{{$edit->kategori}}</option>
                                 <option value="Tim">Tim</option>
                                 <option value="Individu">Individu</option>
                             </select>
                         </div>
                         <div class="col">
                             <label for="terima" class="form-label">Tanggal Terima Tugas</label>
-                            <input type="date" class="form-control" name="terima" value="{{$editKepanitiaan->terima}}">
+                            <input type="date" class="form-control" name="terima" value="{{$edit->terima}}">
                         </div>
                     </div>
                 </div>
@@ -34,11 +34,11 @@
                     <div class="row">
                         <div class="col">
                             <label for="mulai" class="form-label">Tanggal Mulai Tugas</label>
-                            <input type="date" class="form-control" name="mulai" value="{{$editKepanitiaan->mulai}}">
+                            <input type="date" class="form-control" name="mulai" value="{{$edit->mulai}}">
                         </div>
                         <div class="col">
                             <label for="selesai" class="form-label">Tanggal Selesai Tugas</label>
-                            <input type="date" class="form-control" name="selesai" value="{{$editKepanitiaan->selesai}}">
+                            <input type="date" class="form-control" name="selesai" value="{{$edit->selesai}}">
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                         <div class=" add-more-data">
                             <div class="row mb-3">
                                 <div class="col">
-                                    <input type="text" class="form-control" name="nama[]" id="nama" value="{{$editKepanitiaan->nama}}" required>
+                                    <input type="text" class="form-control" name="nama[]" id="nama" value="{{$edit->}}" required>
                                 </div>
                             </div>
                         </div>

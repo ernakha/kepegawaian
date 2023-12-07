@@ -37,7 +37,7 @@
                             <td>{{$kepanitiaan->selesai}}</td>
                             <td>
                                 <a href="{{route('bukti.add')}}"><button type="button" class="btn btn-info">Input Bukti</button></a>
-                                <a href="{{route('kepanitiaan.edit')}}"><button type="button" class="btn btn-warning">Edit</button></a>
+                                <!-- <a href="{{route('kepanitiaan.edit', $kepanitiaan->id)}}"><button type="button" class="btn btn-warning">Edit</button></a> -->
                             </td>
                         </tr>
                         @endforeach

@@ -37,8 +37,8 @@ class KepanitiaanController extends Controller
      }
   
      public function edit($id){
-        $editKepanitiaan = Kepanitiaan::find($id);
-        return view('backend.kepanitiaan.edit_kepanitiaan', compact('editkepanitiaan'));
+        $edit = Kepanitiaan::find($id);
+        return view('backend.kepanitiaan.edit_kepanitiaan', compact('edit'));
      }
   
      public function update(Request $request, $id){

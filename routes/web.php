@@ -28,7 +28,7 @@ Route::prefix('kepanitiaans')->group(function(){
     Route::get('/view', [KepanitiaanController::class, 'index'])->name('kepanitiaan.view');
     Route::get('/add', [KepanitiaanController::class, 'create'])->name('kepanitiaan.add');
     Route::post('/store', [KepanitiaanController::class, 'store'])->name('kepanitiaan.store');
-    Route::get('/update', [KepanitiaanController::class, 'edit'])->name('kepanitiaan.edit');
+    Route::get('/edit/{id}', [KepanitiaanController::class, 'edit'])->name('kepanitiaan.edit');
 });
 Route::prefix('buktis')->group(function(){
     Route::get('/add', [BuktiController::class, 'create'])->name('bukti.add');
