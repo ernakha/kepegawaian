@@ -170,7 +170,6 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
-        $app->register(\Barryvdh\DomPDF\ServiceProvider::class),
     ])->toArray(),
 
     /*
@@ -185,7 +184,6 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        $app->configure('dompdf'),
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 

@@ -29,6 +29,7 @@ Route::prefix('kepanitiaans')->group(function(){
     Route::get('/add', [KepanitiaanController::class, 'create'])->name('kepanitiaan.add');
     Route::post('/store', [KepanitiaanController::class, 'store'])->name('kepanitiaan.store');
     Route::get('/edit/{id}', [KepanitiaanController::class, 'edit'])->name('kepanitiaan.edit');
+    // Route::get('/download-kepanitiaan-pdf', [KepanitiaanController::class, 'download'])->name('kepanitiaan.download');
 });
 Route::prefix('buktis')->group(function(){
     Route::get('/add', [BuktiController::class, 'create'])->name('bukti.add');
