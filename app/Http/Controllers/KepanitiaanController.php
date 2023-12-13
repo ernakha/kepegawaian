@@ -7,6 +7,7 @@ use App\Models\Anggota;
 use App\Models\Pegawai;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class KepanitiaanController extends Controller
 {
