@@ -97,5 +97,157 @@
             </div>
         </div>
     </div>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Rekapitulasi Penugasan</h6>
+        </div>
+        <div class="card-body">
+        <div class="table-responsive">
+        <!-- <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to 25 of 57 entries</div> -->
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Kegiatan</th>
+                        <th>Kategori</th>
+                        <th>Status</th>
+                        <th>Tempat</th>
+                        <th>Tanggal Mulai</th>
+                        <th>Tanggal Berakhir</th>
+                        <th>Tanggal Terima</th>
+                    </tr>
+                </thead>
+                <!-- <tfoot>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Kegiatan</th>
+                        <th>Kategori</th>
+                        <th>Status</th>
+                        <th>Tempat</th>
+                        <th>Tanggal Mulai</th>
+                        <th>Tanggal Berakhir</th>
+                        <th>Tanggal Terima</th>
+                    </tr>
+                </tfoot> -->
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Adi Santoso</td>
+                        <td>Dinas Luar</td>
+                        <td>Individu</td>
+                        <td>Sudah</td>
+                        <td>Bandung</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Devit Suwardiyanto</td>
+                        <td>Kepanitiaan</td>
+                        <td>Tim</td>
+                        <td>Sudah</td>
+                        <td>Bali</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Leonardo D.</td>
+                        <td>Dinas Luar</td>
+                        <td>Individu</td>
+                        <td>Sudah</td>
+                        <td>Semarang</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Maher Zein</td>
+                        <td>Kepanitiaan</td>
+                        <td>Tim</td>
+                        <td>Belum</td>
+                        <td>Jogja</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Satrio P.</td>
+                        <td>Dinas Luar</td>
+                        <td>Tim</td>
+                        <td>Sudah</td>
+                        <td>Jakarta</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Suga</td>
+                        <td>Kepanitiaan</td>
+                        <td>Individu</td>
+                        <td>Sudah</td>
+                        <td>Surabaya</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Dian Sastro</td>
+                        <td>Dinas Luar</td>
+                        <td>Tim</td>
+                        <td>Sudah</td>
+                        <td>Malang</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Aldi</td>
+                        <td>Kepanitiaan</td>
+                        <td>Individu</td>
+                        <td>Belum</td>
+                        <td>Magelang</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Dani</td>
+                        <td>Dinas Luar</td>
+                        <td>Tim</td>
+                        <td>Sudah</td>
+                        <td>Sumatera</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Adib</td>
+                        <td>Kepanitiaan</td>
+                        <td>Individu</td>
+                        <td>Sudah</td>
+                        <td>Lombok</td>
+                        <td>04/12/2023</td>
+                        <td>10/12/2023</td>
+                        <td>14/12/2023</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to 5 of 10 entries</div> -->
+        </div>
+    </div>
 </div>
    @endsection
