@@ -29,6 +29,12 @@
             <span>Kepanitiaan</span>
         </a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="{{url('/dinas_luars/view')}}">
+            </i><i class="fas fa-solid fa-table"></i>
+            <span>Dinas Luar</span>
+        </a>
+    </li>
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
